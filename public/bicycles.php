@@ -14,7 +14,7 @@
     </div>
 
     <?php
-    $parser = new ParseCSV ('/private/used_bicycles.csv');
+    $parser = new ParseCSV ('../private/used_bicycles.csv');
     $bike_array = $parser->parse();
     ?>
 
